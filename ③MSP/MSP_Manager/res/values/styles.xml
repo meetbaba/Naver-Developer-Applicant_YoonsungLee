@@ -1,0 +1,172 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="layout_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+ 
+    <style name="layout_fill">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+ 
+    <style name="layout_f_w">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+ 
+    <style name="h_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.5dip</item>
+    </style>
+ 
+        <style name="indicator_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">4dip</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- basic size -->
+
+    <style name="style_basic_menu_white">
+        <item name="android:textColor">@color/font_txt_white</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="style_basic_menu_yellow">
+        <item name="android:textColor">@color/font_txt_yellow</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="style_basic_menu_violet">
+        <item name="android:textColor">@color/font_txt_violet</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="style_basic_menu_greenyellow">
+        <item name="android:textColor">@color/font_txt_greenyellow</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="style_basic_menu_olivedrab">
+        <item name="android:textColor">@color/font_txt_olivedrab</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="style_basic_menu_royalblue">
+        <item name="android:textColor">@color/font_txt_royalblue</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="style_basic_menu_skyblue">
+        <item name="android:textColor">@color/font_txt_skyblue</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="style_basic_menu_slategray">
+        <item name="android:textColor">@color/font_txt_slategray</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <!-- small size -->
+
+    <style name="style_small_menu_white">
+        <item name="android:textColor">@color/font_txt_white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="style_small_menu_yellow">
+        <item name="android:textColor">@color/font_txt_yellow</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="style_small_menu_violet">
+        <item name="android:textColor">@color/font_txt_violet</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="style_small_menu_greenyellow">
+        <item name="android:textColor">@color/font_txt_greenyellow</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="style_small_menu_olivedrab">
+        <item name="android:textColor">@color/font_txt_olivedrab</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="style_small_menu_royalblue">
+        <item name="android:textColor">@color/font_txt_royalblue</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="style_small_menu_skyblue">
+        <item name="android:textColor">@color/font_txt_skyblue</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="style_small_menu_slategray">
+        <item name="android:textColor">@color/font_txt_slategray</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- big size -->
+
+    <style name="style_big_menu_white">
+        <item name="android:textColor">@color/font_txt_white</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="style_big_menu_yellow">
+        <item name="android:textColor">@color/font_txt_yellow</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="style_big_menu_violet">
+        <item name="android:textColor">@color/font_txt_violet</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="style_big_menu_greenyellow">
+        <item name="android:textColor">@color/font_txt_greenyellow</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="style_big_menu_olivedrab">
+        <item name="android:textColor">@color/font_txt_olivedrab</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="style_big_menu_royalblue">
+        <item name="android:textColor">@color/font_txt_royalblue</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="style_big_menu_skyblue">
+        <item name="android:textColor">@color/font_txt_skyblue</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="style_big_menu_slategray">
+        <item name="android:textColor">@color/font_txt_slategray</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+</resources>

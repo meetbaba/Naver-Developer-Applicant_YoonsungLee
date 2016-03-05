@@ -1,0 +1,33 @@
+main{
+  margin :0;
+	padding-top :150px;
+	border: 0;
+	outline: 0;
+	font-size: 50px;
+	vertical-align: baseline;
+  text-align: center;
+  position: relative;
+
+}
+
+
+header{
+  border-bottom: 1px solid gray;
+  padding:20px;
+}
+nav {
+  border-right: 1px solid gray;
+  width:200px;
+  height:600px;
+
+  float:left;
+}
+nav ol {
+  list-style: none;
+    padding-left: 0px;
+}
+article {
+  width: 500px;
+  float:left;
+  padding:20px;
+}

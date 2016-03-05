@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 autosar_4-1-1.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>VECU_Instance_FlatView</SHORT-NAME>
+      <ELEMENTS>
+        <FLAT-MAP>
+          <SHORT-NAME>VECU_Instance_FlatMap</SHORT-NAME>
+          <INSTANCES>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>SwComponentPrototype_CoolantTemperaturePlausi</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_CoolantTemperaturePlausi</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_CoolantTemperaturePlausi</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>coolantTemperature_pls</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_CoolantTemperaturePlausi</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="P-PORT-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/CoolantTemperaturePlausi/PPortCTPLS</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/PortInterfacePkg/SR_IF_CT_PLS/coolantTemperature_pls</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_CoolantTemperaturePlausi</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="P-PORT-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/CoolantTemperaturePlausi/PPortCTPLS</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/PortInterfacePkg/SR_IF_CT_PLS/coolantTemperature_pls</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>SwComponentPrototype_CrankshaftPositionPlausi</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_CrankshaftPositionPlausi</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_CrankshaftPositionPlausi</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>crankshaftPosition_pls</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_CrankshaftPositionPlausi</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="P-PORT-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/CrankshaftPositionPlausi/PPortCPPLS</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/PortInterfacePkg/SR_IF_CP_PLS/crankshaftPosition_pls</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_CrankshaftPositionPlausi</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="P-PORT-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/CrankshaftPositionPlausi/PPortCPPLS</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/PortInterfacePkg/SR_IF_CP_PLS/crankshaftPosition_pls</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>SwComponentPrototype_EngineECU</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_EngineECU</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_EngineECU</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>SwComponentPrototype_EngineECU_IB_EngineECU_eX_FuelCutState</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_EngineECU</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/EngineECU/IB_EngineECU/eX_FuelCutState</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_EngineECU</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/EngineECU/IB_EngineECU/eX_FuelCutState</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>SwComponentPrototype_FuelCutActuator</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_FuelCutActuator</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_FuelCutActuator</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>SwComponentPrototype_FuelCutAlgo</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_FuelCutAlgo</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_FuelCutAlgo</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>fuelCutAction</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="P-PORT-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/PPortFuelCutAction</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/PortInterfacePkg/SR_IF_FUELCUT_ACTION/fuelCutAction</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="P-PORT-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/PPortFuelCutAction</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/PortInterfacePkg/SR_IF_FUELCUT_ACTION/fuelCutAction</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>SwComponentPrototype_FuelCutAlgo_IB_FuelCutAlgo_eX_BrakeLevel</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/IB_FuelCutAlgo/eX_BrakeLevel</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/IB_FuelCutAlgo/eX_BrakeLevel</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>SwComponentPrototype_FuelCutAlgo_IB_FuelCutAlgo_eX_AccelerateLevel</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/IB_FuelCutAlgo/eX_AccelerateLevel</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/IB_FuelCutAlgo/eX_AccelerateLevel</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>SwComponentPrototype_FuelCutAlgo_IB_FuelCutAlgo_eX_GearLevel</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/IB_FuelCutAlgo/eX_GearLevel</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/IB_FuelCutAlgo/eX_GearLevel</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>SwComponentPrototype_FuelCutAlgo_IB_FuelCutAlgo_eX_VehicleSpeed</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/IB_FuelCutAlgo/eX_VehicleSpeed</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/IB_FuelCutAlgo/eX_VehicleSpeed</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>SwComponentPrototype_FuelCutAlgo_IB_FuelCutAlgo_eX_CrankshaftPosition</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/IB_FuelCutAlgo/eX_CrankshaftPosition</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/IB_FuelCutAlgo/eX_CrankshaftPosition</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>SwComponentPrototype_FuelCutAlgo_IB_FuelCutAlgo_eX_Gyro</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/IB_FuelCutAlgo/eX_Gyro</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/IB_FuelCutAlgo/eX_Gyro</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>SwComponentPrototype_FuelCutAlgo_IB_FuelCutAlgo_eX_CoolantTemperature</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/IB_FuelCutAlgo/eX_CoolantTemperature</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_FuelCutAlgo</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/IB_FuelCutAlgo/eX_CoolantTemperature</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>SwComponentPrototype_GyroPlausi</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_GyroPlausi</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_GyroPlausi</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>gyro_pls</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_GyroPlausi</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="P-PORT-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/GyroPlausi/PPortGyroPLS</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/PortInterfacePkg/SR_IF_GYRO_PLS/gyro_pls</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_GyroPlausi</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="P-PORT-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/GyroPlausi/PPortGyroPLS</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/PortInterfacePkg/SR_IF_GYRO_PLS/gyro_pls</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>SwComponentPrototype_VehicleSpeedPlausi</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_VehicleSpeedPlausi</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_VehicleSpeedPlausi</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>vehicleSpeed_pls</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU/VECU/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition/TopLevelComposition/SwComponentPrototype_VehicleSpeedPlausi</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="P-PORT-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/VehicleSpeedPlausi/PPortVSPLS</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/PortInterfacePkg/SR_IF_VS_PLS/vehicleSpeed_pls</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/VECU_EcuExtract/EXTR_VECU_Instance/CPT_VECU_Instance_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/VECU_Instance_FlatView/SwComponentTypes/VECU_Instance_FlatView/SwComponentPrototype_VehicleSpeedPlausi</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="P-PORT-PROTOTYPE">/SoftwarePkg/SoftwareComponentPkg/VehicleSpeedPlausi/PPortVSPLS</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwarePkg/PortInterfacePkg/SR_IF_VS_PLS/vehicleSpeed_pls</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+          </INSTANCES>
+        </FLAT-MAP>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

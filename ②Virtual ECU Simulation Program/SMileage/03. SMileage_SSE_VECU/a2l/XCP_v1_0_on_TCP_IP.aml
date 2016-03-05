@@ -1,0 +1,15 @@
+
+/************************ start of TCP_IP ***********************************/
+
+  struct TCP_IP_Parameters {
+
+     uint; /* XCP on UDP_IP version */
+           /* e.g. "1.0" = 0x0100 */
+     uint; /* PORT */
+
+     taggedunion {
+       "HOST_NAME" char[256];
+       "ADDRESS" char[15];
+     };
+
+ };/************************* end of TCP_IP ***********************************/

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.etas.vaptools.a2l.generator.core.LaunchConfigurationType">
+<stringAttribute key="VECU_NAME" value="Smileage"/>
+<stringAttribute key="output_loc" value="${workspace_loc:/Smileage/a2l}"/>
+<stringAttribute key="rte_mcsupport_arxml_input_loc" value=""/>
+</launchConfiguration>

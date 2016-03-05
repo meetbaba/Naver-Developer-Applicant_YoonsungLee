@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.etas.vaptools.mcal.generator.core.LaunchConfigurationType">
+<stringAttribute key="MCAL_GEN_OUTPUT_LOCATION" value="${workspace_loc:/Smileage/src/MCAL}"/>
+<stringAttribute key="VECU_NAME" value="Smileage"/>
+</launchConfiguration>

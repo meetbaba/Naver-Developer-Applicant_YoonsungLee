@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.etas.vaptools.rtarte.generator.core.LaunchConfigurationType">
+<stringAttribute key="VECU_NAME" value="Smileage"/>
+<stringAttribute key="additional_command" value="-tsl=128 --os-output-param=all"/>
+<listAttribute key="arxml_files">
+<listEntry value="/Smileage/EVE_Data/ARXML/Rte_OS_Task.arxml"/>
+<listEntry value="/Smileage/EVE_Data/ARXML/AutoSAR_smileage.arxml"/>
+<listEntry value="/Smileage/EVE_Data/ARXML/VECU.arxml"/>
+<listEntry value="/Smileage/EVE_Data/ARXML/TopLevelComposition.arxml"/>
+<listEntry value="/Smileage/EVE_Data/ARXML/Os_Task.arxml"/>
+<listEntry value="/Smileage/EVE_Data/ARXML/VECU_ValueCollection.arxml"/>
+<listEntry value="/Smileage/EVE_Data/ARXML/VECU_Instance_FlatMap.arxml"/>
+<listEntry value="/Smileage/EVE_Data/ARXML/VECU_Instance_FlatView_SWCD.arxml"/>
+<listEntry value="/Smileage/EVE_Data/ARXML/VECU_EcuExtr.arxml"/>
+</listAttribute>
+<stringAttribute key="ecu_arxml_path" value="platform:/resource/Smileage/EVE_Data/ARXML/VECU.arxml"/>
+<stringAttribute key="ecu_instances" value="/VECU/VECU_Instance"/>
+<stringAttribute key="input_loc" value="C:\ETAS\RTA-RTE\bin\RTEGen.exe"/>
+<stringAttribute key="output_loc" value="${workspace_loc:/Smileage/src/RTE}"/>
+</launchConfiguration>

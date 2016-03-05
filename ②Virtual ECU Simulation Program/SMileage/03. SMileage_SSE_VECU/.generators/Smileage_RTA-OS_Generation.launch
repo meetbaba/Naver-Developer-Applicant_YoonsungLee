@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.etas.vaptools.rtaos.generator.core.LaunchConfigurationType">
+<stringAttribute key="VECU_NAME" value="Smileage"/>
+<listAttribute key="arxml_files">
+<listEntry value="/Smileage/EVE_Data/RTA-OS/os_XCP.arxml"/>
+<listEntry value="/Smileage/EVE_Data/RTA-OS/osRTPC.arxml"/>
+<listEntry value="/Smileage/src/RTE/osNeeds.arxml"/>
+</listAttribute>
+<stringAttribute key="includes_loc" value="${workspace_loc:/Smileage/src/Includes}"/>
+<stringAttribute key="org.eclipse.debug.core.ATTR_REFRESH_SCOPE" value="${resource:/Smileage/src/RTA-OS}"/>
+<stringAttribute key="output_loc" value="${workspace_loc:/Smileage/src/RTA-OS}"/>
+<stringAttribute key="tool_loc" value="C:\ETAS\RTA-OS\Bin\rtaosgen.exe"/>
+</launchConfiguration>

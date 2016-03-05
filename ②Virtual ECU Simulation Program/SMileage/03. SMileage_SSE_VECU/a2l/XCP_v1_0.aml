@@ -1,0 +1,49 @@
+
+/************* start of XCP on different Transport Layers *******************/
+
+"XCP" struct {
+
+  taggedstruct Common_Parameters ; /* default parameters */
+
+  taggedstruct { /* transport layer specific parameters  */
+                 /* overruling of the default parameters */
+
+    block "XCP_ON_CAN" struct {
+
+      struct CAN_Parameters ;                   /* specific for CAN      */
+      taggedstruct Common_Parameters;           /* overruling of default */
+    
+    };
+
+    block "XCP_ON_SxI" struct {
+
+      struct SxI_Parameters ;                   /* specific for SPI      */
+      taggedstruct Common_Parameters;           /* overruling of default */
+
+    };
+
+    block "XCP_ON_TCP_IP" struct {
+
+      struct TCP_IP_Parameters ;                /* specific for TCP_IP   */
+      taggedstruct Common_Parameters;           /* overruling of default */
+
+    };
+
+    block "XCP_ON_UDP_IP" struct {
+
+      struct UDP_IP_Parameters ;                /* specific for UDP      */
+      taggedstruct Common_Parameters;           /* overruling of default */
+
+    };
+
+    block "XCP_ON_USB" struct {
+
+      struct USB_Parameters ;                   /* specific for USB      */
+      taggedstruct Common_Parameters;           /* overruling of default */
+
+    };
+
+  };
+
+};/************* end of XCP on different Transport Layers ********************/
+

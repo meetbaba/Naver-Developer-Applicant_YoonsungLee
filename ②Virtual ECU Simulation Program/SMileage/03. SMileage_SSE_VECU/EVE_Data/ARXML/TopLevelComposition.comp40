@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://autosar.org/schema/r4.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xsi:schemaLocation="http://autosar.org/schema/r4.0 http://autosar.org/schema/r4.0/autosar40/swc/composition" xmi:id="_Bx36EIUVEeSONYlk_UxYQg" type="autosar40comp" name="TopLevelComposition.comp40" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_D-QSEIUVEeSONYlk_UxYQg" type="2004" fontName="맑은 고딕">
+    <children xmi:type="notation:DecorationNode" xmi:id="_D-QSEoUVEeSONYlk_UxYQg" type="5009"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_D-QSE4UVEeSONYlk_UxYQg" type="50010"/>
+    <children xmi:type="notation:Node" xmi:id="_D-T8cIUVEeSONYlk_UxYQg" type="3004">
+      <children xmi:type="notation:DecorationNode" xmi:id="_D-T8dYUVEeSONYlk_UxYQg" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_D-T8doUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_D-T8cYUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_D-T8coUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_D-T8c4UVEeSONYlk_UxYQg"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/EngineECU/PPortSetFuelCutState?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D-T8dIUVEeSONYlk_UxYQg" x="183" y="263"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_D-T8d4UVEeSONYlk_UxYQg" type="3005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_D-T8fIUVEeSONYlk_UxYQg" type="5008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_D-T8fYUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_D-T8eIUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_D-T8eYUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_D-T8eoUVEeSONYlk_UxYQg"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/EngineECU/RPortVSRAW?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D-T8e4UVEeSONYlk_UxYQg" x="-8" y="153"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_D-UjgIUVEeSONYlk_UxYQg" type="3005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_D-UjhYUVEeSONYlk_UxYQg" type="5008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_D-UjhoUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_D-UjgYUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_D-UjgoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_D-Ujg4UVEeSONYlk_UxYQg"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/EngineECU/RPortCPRAW?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D-UjhIUVEeSONYlk_UxYQg" x="-8" y="104"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_D-Ujh4UVEeSONYlk_UxYQg" type="3005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_D-UjjIUVEeSONYlk_UxYQg" type="5008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_D-UjjYUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_D-UjiIUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_D-UjiYUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_D-UjioUVEeSONYlk_UxYQg"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/EngineECU/RPortGyroRAW?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D-Uji4UVEeSONYlk_UxYQg" x="-8" y="218"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_D-UjjoUVEeSONYlk_UxYQg" type="3005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_D-Ujk4UVEeSONYlk_UxYQg" type="5008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_D-UjlIUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_D-Ujj4UVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_D-UjkIUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_D-UjkYUVEeSONYlk_UxYQg"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/EngineECU/RPortCTRAW?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D-UjkoUVEeSONYlk_UxYQg" x="-8" y="51"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_D-UjlYUVEeSONYlk_UxYQg" type="3005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_D-VKkIUVEeSONYlk_UxYQg" type="5008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_D-VKkYUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_D-UjloUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_D-Ujl4UVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_D-UjmIUVEeSONYlk_UxYQg"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/EngineECU/RPortGear?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D-UjmYUVEeSONYlk_UxYQg" x="278" y="192"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_D-VKkoUVEeSONYlk_UxYQg" type="3005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_D-VKl4UVEeSONYlk_UxYQg" type="5008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_D-VKmIUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_D-VKk4UVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_D-VKlIUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_D-VKlYUVEeSONYlk_UxYQg"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/EngineECU/RPortBrake?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D-VKloUVEeSONYlk_UxYQg" x="278" y="72"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_D-VKmYUVEeSONYlk_UxYQg" type="3005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_D-VKnoUVEeSONYlk_UxYQg" type="5008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_D-VKn4UVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_D-VKmoUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_D-VKm4UVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_D-VKnIUVEeSONYlk_UxYQg"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/EngineECU/RPortAccelerate?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D-VKnYUVEeSONYlk_UxYQg" x="278" y="132"/>
+    </children>
+    <element xmi:type="SW-COMPONENT-PROTOTYPE" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/SwComponentPrototype_EngineECU?type=SwComponentPrototype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D-QSEYUVEeSONYlk_UxYQg" x="1280" y="170" width="284" height="262"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Q0tAEIUVEeSONYlk_UxYQg" type="2004" fontName="맑은 고딕">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Q0tAEoUVEeSONYlk_UxYQg" type="5009"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Q0tAE4UVEeSONYlk_UxYQg" type="50010"/>
+    <children xmi:type="notation:Node" xmi:id="_Q0wDYIUVEeSONYlk_UxYQg" type="3004">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Q0wDZYUVEeSONYlk_UxYQg" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Q0wDZoUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_Q0wDYYUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Q0wDYoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_Q0wDY4UVEeSONYlk_UxYQg"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/CoolantTemperaturePlausi/PPortCTRAW?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0wDZIUVEeSONYlk_UxYQg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Q0wqcIUVEeSONYlk_UxYQg" type="3004">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Q0wqdYUVEeSONYlk_UxYQg" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Q0wqdoUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_Q0wqcYUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Q0wqcoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_Q0wqc4UVEeSONYlk_UxYQg"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/CoolantTemperaturePlausi/PPortCTPLS?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0wqdIUVEeSONYlk_UxYQg" x="-8" y="65"/>
+    </children>
+    <element xmi:type="SW-COMPONENT-PROTOTYPE" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/SwComponentPrototype_CoolantTemperaturePlausi?type=SwComponentPrototype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q0tAEYUVEeSONYlk_UxYQg" x="789" y="24" width="250" height="130"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_RiujsIUVEeSONYlk_UxYQg" type="2004" fontName="맑은 고딕">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RiujsoUVEeSONYlk_UxYQg" type="5009"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Riujs4UVEeSONYlk_UxYQg" type="50010"/>
+    <children xmi:type="notation:Node" xmi:id="_RiyOEIUVEeSONYlk_UxYQg" type="3004">
+      <children xmi:type="notation:DecorationNode" xmi:id="_RiyOFYUVEeSONYlk_UxYQg" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RiyOFoUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_RiyOEYUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_RiyOEoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_RiyOE4UVEeSONYlk_UxYQg"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/CrankshaftPositionPlausi/PPortCPRAW?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RiyOFIUVEeSONYlk_UxYQg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_RiyOF4UVEeSONYlk_UxYQg" type="3004">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Riy1IIUVEeSONYlk_UxYQg" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Riy1IYUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_RiyOGIUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_RiyOGYUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_RiyOGoUVEeSONYlk_UxYQg"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/CrankshaftPositionPlausi/PPortCPPLS?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RiyOG4UVEeSONYlk_UxYQg" x="-8" y="69"/>
+    </children>
+    <element xmi:type="SW-COMPONENT-PROTOTYPE" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/SwComponentPrototype_CrankshaftPositionPlausi?type=SwComponentPrototype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RiujsYUVEeSONYlk_UxYQg" x="793" y="190" width="250" height="130"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_S7rToIUVEeSONYlk_UxYQg" type="2004" fontName="맑은 고딕">
+    <children xmi:type="notation:DecorationNode" xmi:id="_S7r6sYUVEeSONYlk_UxYQg" type="5009"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_S7r6soUVEeSONYlk_UxYQg" type="50010"/>
+    <children xmi:type="notation:Node" xmi:id="_S7uW8IUVEeSONYlk_UxYQg" type="3005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_S7uW9YUVEeSONYlk_UxYQg" type="5008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_S7uW9oUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_S7uW8YUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_S7uW8oUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_S7uW84UVEeSONYlk_UxYQg"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/FuelCutActuator/RPortSetFuelCutState?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S7uW9IUVEeSONYlk_UxYQg" x="244" y="74"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_S7u-AIUVEeSONYlk_UxYQg" type="3005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_S7u-BYUVEeSONYlk_UxYQg" type="5008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_S7u-BoUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_S7u-AYUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_S7u-AoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_S7u-A4UVEeSONYlk_UxYQg"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/FuelCutActuator/RPortFuelCutAction?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S7u-BIUVEeSONYlk_UxYQg"/>
+    </children>
+    <element xmi:type="SW-COMPONENT-PROTOTYPE" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/SwComponentPrototype_FuelCutActuator?type=SwComponentPrototype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S7r6sIUVEeSONYlk_UxYQg" x="712" y="694" width="250" height="130"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_UJET0IUVEeSONYlk_UxYQg" type="2004" fontName="맑은 고딕">
+    <children xmi:type="notation:DecorationNode" xmi:id="_UJE64IUVEeSONYlk_UxYQg" type="5009"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_UJE64YUVEeSONYlk_UxYQg" type="50010"/>
+    <children xmi:type="notation:Node" xmi:id="_UJHXIIUVEeSONYlk_UxYQg" type="3004">
+      <children xmi:type="notation:DecorationNode" xmi:id="_UJH-MIUVEeSONYlk_UxYQg" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_UJH-MYUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_UJHXIYUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_UJHXIoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_UJHXI4UVEeSONYlk_UxYQg"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/VehicleSpeedPlausi/PPortVSRAW?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UJHXJIUVEeSONYlk_UxYQg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_UJH-MoUVEeSONYlk_UxYQg" type="3004">
+      <children xmi:type="notation:DecorationNode" xmi:id="_UJH-N4UVEeSONYlk_UxYQg" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_UJH-OIUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_UJH-M4UVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_UJH-NIUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_UJH-NYUVEeSONYlk_UxYQg"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/VehicleSpeedPlausi/PPortVSPLS?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UJH-NoUVEeSONYlk_UxYQg" x="-8" y="76"/>
+    </children>
+    <element xmi:type="SW-COMPONENT-PROTOTYPE" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/SwComponentPrototype_VehicleSpeedPlausi?type=SwComponentPrototype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UJET0YUVEeSONYlk_UxYQg" x="794" y="343" width="250" height="130"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_aSCdMIUVEeSONYlk_UxYQg" type="2004" fontName="맑은 고딕">
+    <children xmi:type="notation:DecorationNode" xmi:id="_aSCdMoUVEeSONYlk_UxYQg" type="5009"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aSCdM4UVEeSONYlk_UxYQg" type="50010"/>
+    <children xmi:type="notation:Node" xmi:id="_aSESYIUVEeSONYlk_UxYQg" type="3004">
+      <children xmi:type="notation:DecorationNode" xmi:id="_aSE5cIUVEeSONYlk_UxYQg" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aSE5cYUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_aSESYYUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_aSESYoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_aSESY4UVEeSONYlk_UxYQg"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/GyroPlausi/PPortGyroRAW?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aSESZIUVEeSONYlk_UxYQg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_aSE5coUVEeSONYlk_UxYQg" type="3004">
+      <children xmi:type="notation:DecorationNode" xmi:id="_aSE5d4UVEeSONYlk_UxYQg" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aSE5eIUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_aSE5c4UVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_aSE5dIUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_aSE5dYUVEeSONYlk_UxYQg"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/GyroPlausi/PPortGyroPLS?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aSE5doUVEeSONYlk_UxYQg" x="-8" y="64"/>
+    </children>
+    <element xmi:type="SW-COMPONENT-PROTOTYPE" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/SwComponentPrototype_GyroPlausi?type=SwComponentPrototype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aSCdMYUVEeSONYlk_UxYQg" x="799" y="505" width="250" height="130"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_cHzsAIUVEeSONYlk_UxYQg" type="2004" fontName="맑은 고딕">
+    <children xmi:type="notation:DecorationNode" xmi:id="_cHzsAoUVEeSONYlk_UxYQg" type="5009"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_cH0TEIUVEeSONYlk_UxYQg" type="50010"/>
+    <children xmi:type="notation:Node" xmi:id="_cH2IQIUVEeSONYlk_UxYQg" type="3004">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cH2IRYUVEeSONYlk_UxYQg" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cH2IRoUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_cH2IQYUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_cH2IQoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_cH2IQ4UVEeSONYlk_UxYQg"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/PPortGear?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cH2IRIUVEeSONYlk_UxYQg" x="-8" y="318"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_cH2IR4UVEeSONYlk_UxYQg" type="3004">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cH2ITIUVEeSONYlk_UxYQg" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cH2ITYUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_cH2ISIUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_cH2ISYUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_cH2ISoUVEeSONYlk_UxYQg"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/PPortAccelerate?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cH2IS4UVEeSONYlk_UxYQg" x="-8" y="270"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_cH2IToUVEeSONYlk_UxYQg" type="3004">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cH2IU4UVEeSONYlk_UxYQg" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cH2vUIUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_cH2IT4UVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_cH2IUIUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_cH2IUYUVEeSONYlk_UxYQg"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/PPortBrake?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cH2IUoUVEeSONYlk_UxYQg" x="-8" y="194"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_cH2vUYUVEeSONYlk_UxYQg" type="3004">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cH2vVoUVEeSONYlk_UxYQg" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cH2vV4UVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_cH2vUoUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_cH2vU4UVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_cH2vVIUVEeSONYlk_UxYQg"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/PPortFuelCutAction?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cH2vVYUVEeSONYlk_UxYQg" x="141" y="587"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_cH2vWIUVEeSONYlk_UxYQg" type="3005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cH2vXYUVEeSONYlk_UxYQg" type="5008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cH2vXoUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_cH2vWYUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_cH2vWoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_cH2vW4UVEeSONYlk_UxYQg"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/RPortCTPLS?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cH2vXIUVEeSONYlk_UxYQg" x="272" y="114"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_cH2vX4UVEeSONYlk_UxYQg" type="3005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cH2vZIUVEeSONYlk_UxYQg" type="5008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cH2vZYUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_cH2vYIUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_cH2vYYUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_cH2vYoUVEeSONYlk_UxYQg"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/RPortGyroPLS?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cH2vY4UVEeSONYlk_UxYQg" x="272" y="465"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_cH2vZoUVEeSONYlk_UxYQg" type="3005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cH3WY4UVEeSONYlk_UxYQg" type="5008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cH3WZIUVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_cH2vZ4UVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_cH3WYIUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_cH3WYYUVEeSONYlk_UxYQg"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/RPortCPPLS?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cH3WYoUVEeSONYlk_UxYQg" x="272" y="221"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_cH3WZYUVEeSONYlk_UxYQg" type="3005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cH3WaoUVEeSONYlk_UxYQg" type="5008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cH3Wa4UVEeSONYlk_UxYQg" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_cH3WZoUVEeSONYlk_UxYQg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_cH3WZ4UVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_cH3WaIUVEeSONYlk_UxYQg"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="AutoSAR_smileage.arxml#/SoftwarePkg/SoftwareComponentPkg/FuelCutAlgo/RPortVSPLS?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cH3WaYUVEeSONYlk_UxYQg" x="272" y="396"/>
+    </children>
+    <element xmi:type="SW-COMPONENT-PROTOTYPE" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/SwComponentPrototype_FuelCutAlgo?type=SwComponentPrototype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHzsAYUVEeSONYlk_UxYQg" x="173" y="35" height="586"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_Bx36EYUVEeSONYlk_UxYQg"/>
+  <element xmi:type="COMPOSITION-SW-COMPONENT-TYPE" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition?type=CompositionSwComponentType"/>
+  <edges xmi:type="notation:Edge" xmi:id="_sdL_AIUVEeSONYlk_UxYQg" type="4003" source="_cH2vUYUVEeSONYlk_UxYQg" target="_S7u-AIUVEeSONYlk_UxYQg">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_sdL_AYUVEeSONYlk_UxYQg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sdL_AoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/AssemblySwConnector_0?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sdL_A4UVEeSONYlk_UxYQg" points="[8, 2, -382, -136]$[388, 130, -2, -8]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_ti3NoIUVEeSONYlk_UxYQg" type="4003" source="_S7uW8IUVEeSONYlk_UxYQg" target="_D-T8cIUVEeSONYlk_UxYQg">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_ti3NoYUVEeSONYlk_UxYQg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ti3NooUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/AssemblySwConnector_1?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ti3No4UVEeSONYlk_UxYQg" points="[8, -6, -499, 329]$[505, -6, -2, 329]$[505, -327, -2, 8]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_u24aQIUVEeSONYlk_UxYQg" type="4003" source="_D-UjjoUVEeSONYlk_UxYQg" target="_Q0wDYIUVEeSONYlk_UxYQg">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_u24aQYUVEeSONYlk_UxYQg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_u24aQoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/AssemblySwConnector_2?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_u24aQ4UVEeSONYlk_UxYQg" points="[-8, -5, 239, 131]$[-247, -136, 0, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u3VGMIUVEeSONYlk_UxYQg" id="(0.0,0.1875)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_vk3hoIUVEeSONYlk_UxYQg" type="4003" source="_D-UjgIUVEeSONYlk_UxYQg" target="_RiyOEIUVEeSONYlk_UxYQg">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_vk3hoYUVEeSONYlk_UxYQg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_vk3hooUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/AssemblySwConnector_3?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vk3ho4UVEeSONYlk_UxYQg" points="[-8, -1, 227, 17]$[-227, -18, 8, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_wEqcAIUVEeSONYlk_UxYQg" type="4003" source="_D-T8d4UVEeSONYlk_UxYQg" target="_UJHXIIUVEeSONYlk_UxYQg">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_wEqcAYUVEeSONYlk_UxYQg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wEqcAoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/AssemblySwConnector_4?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wEqcA4UVEeSONYlk_UxYQg" points="[-8, 2, 226, -84]$[-242, 86, -8, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_ws0BIIUVEeSONYlk_UxYQg" type="4003" source="_D-Ujh4UVEeSONYlk_UxYQg" target="_aSESYIUVEeSONYlk_UxYQg">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_ws0BIYUVEeSONYlk_UxYQg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ws0BIoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/AssemblySwConnector_5?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ws0BI4UVEeSONYlk_UxYQg" points="[-8, 6, 221, -177]$[-228, 191, 1, 8]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_yQsOsIUVEeSONYlk_UxYQg" type="4003" source="_Q0wqcIUVEeSONYlk_UxYQg" target="_cH2vWIUVEeSONYlk_UxYQg">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_yQsOsYUVEeSONYlk_UxYQg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yQsOsoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/AssemblySwConnector_6?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yQsOs4UVEeSONYlk_UxYQg" points="[-8, 1, 328, -59]$[-337, 68, -1, 8]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_y3cssIUVEeSONYlk_UxYQg" type="4003" source="_RiyOF4UVEeSONYlk_UxYQg" target="_cH2vZoUVEeSONYlk_UxYQg">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_y3cssYUVEeSONYlk_UxYQg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_y3cssoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/AssemblySwConnector_7?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_y3css4UVEeSONYlk_UxYQg" points="[-8, -5, 332, -2]$[-341, -11, -1, -8]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_ziPWIIUVEeSONYlk_UxYQg" type="4003" source="_UJH-MoUVEeSONYlk_UxYQg" target="_cH3WZYUVEeSONYlk_UxYQg">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_ziPWIYUVEeSONYlk_UxYQg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ziPWIoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/AssemblySwConnector_8?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ziPWI4UVEeSONYlk_UxYQg" points="[-8, 0, 333, -12]$[-345, 20, -4, 8]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_0Hk30IUVEeSONYlk_UxYQg" type="4003" source="_aSE5coUVEeSONYlk_UxYQg" target="_cH2vX4UVEeSONYlk_UxYQg">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_0Hk30YUVEeSONYlk_UxYQg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_0Hk30oUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/AssemblySwConnector_9?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0Hk304UVEeSONYlk_UxYQg" points="[-3, -1, 338, 68]$[-341, -61, 0, 8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0HpJQIUVEeSONYlk_UxYQg" id="(0.1875,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_2tqwUIUVEeSONYlk_UxYQg" type="4003" source="_D-VKkoUVEeSONYlk_UxYQg" target="_cH2IToUVEeSONYlk_UxYQg">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_2tqwUYUVEeSONYlk_UxYQg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2tqwUoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/AssemblySwConnector_10?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2tqwU4UVEeSONYlk_UxYQg" points="[0, -8, 1398, 8]$[0, -274, 1398, -258]$[-188, -274, 1210, -258]$[-188, -258, 1210, -242]$[-1426, -258, -28, -242]$[-1426, -13, -28, 3]$[-1401, -13, -3, 3]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2tvo0IUVEeSONYlk_UxYQg" id="(0.1875,0.3125)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_8OulIIUVEeSONYlk_UxYQg" type="4003" source="_D-VKmYUVEeSONYlk_UxYQg" target="_cH2IR4UVEeSONYlk_UxYQg">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_8OulIYUVEeSONYlk_UxYQg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_8OulIoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/AssemblySwConnector_11?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8OulI4UVEeSONYlk_UxYQg" points="[8, 8, 1404, 2]$[46, 8, 1442, 2]$[46, -366, 1442, -372]$[-1480, -366, -84, -372]$[-1480, 11, -84, 5]$[-1401, 11, -5, 5]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OxocIUVEeSONYlk_UxYQg" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OyPgIUVEeSONYlk_UxYQg" id="(0.3125,0.1875)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_9s4lMIUVEeSONYlk_UxYQg" type="4003" source="_D-UjlYUVEeSONYlk_UxYQg" target="_cH2IQIUVEeSONYlk_UxYQg">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_9s4lMYUVEeSONYlk_UxYQg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9s4lMoUVEeSONYlk_UxYQg" fontName="맑은 고딕"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="TopLevelComposition.arxml#/TopLevelComposition/TopLevelComposition/AssemblySwConnector_12?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9s4lM4UVEeSONYlk_UxYQg" points="[14, 2, 1406, 12]$[192, 2, 1584, 12]$[192, -458, 1584, -448]$[-1523, -458, -131, -448]$[-1523, -7, -131, 3]$[-1395, -7, -3, 3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9s_58IUVEeSONYlk_UxYQg" id="(0.125,0.375)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9s_58YUVEeSONYlk_UxYQg" id="(0.1875,0.3125)"/>
+  </edges>
+</notation:Diagram>

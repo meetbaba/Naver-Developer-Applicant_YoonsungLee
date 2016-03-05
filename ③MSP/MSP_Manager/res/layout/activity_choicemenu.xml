@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#696969"
+    tools:context="com.msp_manager.Ac_ChoiceMenu">
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이름 : "/>
+            
+            <TextView 
+                android:id="@+id/ChoiceMenu_txtview_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/style_basic_menu_yellow"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:layout_weight="2"
+            android:gravity="center_horizontal|center_vertical">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/style_big_menu_skyblue"
+                android:text="메뉴 선택 "
+                android:layout_gravity="center_horizontal"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal" 
+            android:layout_weight="1">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="직책"
+                android:layout_gravity="center_horizontal"/>
+            
+            <TextView 
+                android:id="@+id/ChoiceMenu_txtview_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/style_basic_menu_yellow"/>
+           
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+       	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:baselineAligned="false"
+        android:paddingTop="100sp">
+        
+        <Button
+            android:id="@+id/ChoiceMenu_button_workgoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="목표 작업량" 
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10sp"
+            style="@style/style_basic_menu_violet"
+            />
+        
+         <Button
+                android:id="@+id/ChoiceMenu_button_statistics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="통   계"
+                android:layout_gravity="center_horizontal"
+                            style="@style/style_basic_menu_violet"
+                 />
+         
+    </LinearLayout>
+    
+    
+    
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<imageDescription version="1.0">
+    <id>
+      <name>Smileage</name>
+      <version>0.0.1</version>
+      <owner>ajou@null</owner>
+    </id>
+    <!--
+        Time in seconds after download.
+		Once expired, the system *may*
+		remove the data from disk.
+    -->
+    <expiration/>
+    <timestamp>2014/12/16 20:49:47</timestamp>
+    <executable>Smileage</executable>
+</imageDescription>

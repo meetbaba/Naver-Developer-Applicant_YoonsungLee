@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:background="#696969"
+	android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/Statistics_button_daily"
+        style="@style/style_basic_menu_yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="일일 통계" />
+
+    <Button
+        android:id="@+id/Statistics_button_weekly"
+        style="@style/style_basic_menu_yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="주간 통계" />
+
+    <Button
+        android:id="@+id/Statistics_button_monthly"
+        style="@style/style_basic_menu_yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="월간 통계" />
+
+</LinearLayout>

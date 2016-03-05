@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-0-2.xsd">
+   <!-- McSupportData report file from RTARTE -->
+   <AR-PACKAGES>
+      <AR-PACKAGE>
+         <SHORT-NAME>AUTOSAR_Rte</SHORT-NAME>
+         <REFERENCE-BASES>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_ApplicationPrimitiveDataTypes</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/ApplicationPrimitiveDataTypes</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_BswImplementations</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/BswImplementations</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_CompuMethods</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/CompuMethods</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_DataConstrs</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/DataConstrs</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_ImplementationDataTypes</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/ImplementationDataTypes</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_PhysicalDimensions</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/PhysicalDimensions</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_SwAddrMethods</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/SwAddrMethods</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_SwBaseTypes</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/SwBaseTypes</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_SwRecordLayouts</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/SwRecordLayouts</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_Units</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/Units</PACKAGE-REF>
+            </REFERENCE-BASE>
+         </REFERENCE-BASES>
+         <AR-PACKAGES>
+            <AR-PACKAGE>
+               <SHORT-NAME>BswImplementations</SHORT-NAME>
+               <ELEMENTS>
+                  <BSW-IMPLEMENTATION>
+                     <SHORT-NAME>Rte</SHORT-NAME>
+                     <MC-SUPPORT>
+                        <EMULATION-SUPPORTS>
+                           <MC-SW-EMULATION-METHOD-SUPPORT>
+                             <CATEGORY>NONE</CATEGORY>
+                           </MC-SW-EMULATION-METHOD-SUPPORT>
+                        </EMULATION-SUPPORTS>
+                        <MC-PARAMETER-INSTANCES>
+                        </MC-PARAMETER-INSTANCES>
+                        <MC-VARIABLE-INSTANCES>
+                        </MC-VARIABLE-INSTANCES>
+                     </MC-SUPPORT>
+                  </BSW-IMPLEMENTATION>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>ApplicationPrimitiveDataTypes</SHORT-NAME>
+               <ELEMENTS>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>Units</SHORT-NAME>
+               <ELEMENTS>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>CompuMethods</SHORT-NAME>
+               <ELEMENTS>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>DataConstrs</SHORT-NAME>
+               <ELEMENTS>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>ImplementationDataTypes</SHORT-NAME>
+               <ELEMENTS>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>PhysicalDimensions</SHORT-NAME>
+               <ELEMENTS>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>SwAddrMethods</SHORT-NAME>
+               <ELEMENTS>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>SwBaseTypes</SHORT-NAME>
+               <ELEMENTS>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>SwRecordLayouts</SHORT-NAME>
+               <ELEMENTS>
+               </ELEMENTS>
+            </AR-PACKAGE>
+         </AR-PACKAGES>
+      </AR-PACKAGE>
+   </AR-PACKAGES>
+</AUTOSAR>
+

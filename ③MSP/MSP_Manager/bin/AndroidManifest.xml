@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.msp_manager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Ac_Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Ac_ChoiceMenu"></activity>
+        <activity android:name=".Ac_ManageMember"></activity>
+        <activity android:name=".Ac_Statistics"></activity>
+        <activity android:name=".Ac_WorkGoal"></activity>
+        <activity android:name=".Tab_Daily"></activity>
+        <activity android:name=".Tab_Weekly"></activity>
+        <activity android:name=".Tab_Monthly"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,6 @@
+EXE := Smileage
+
+LDLIBS +=
+
+LDEXTLIBS +=
+

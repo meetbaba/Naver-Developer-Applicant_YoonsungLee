@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10sp"
+    android:background="#696969"
+    android:orientation="horizontal"
+    tools:context="com.listviewtest"
+    android:weightSum="3" >
+
+    <TextView
+        android:id="@+id/customItem_Daily_name"
+        style="@style/style_basic_menu_greenyellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="10sp"
+        android:layout_weight="1"
+        android:text="dlfma"
+        android:textAppearance="?android:attr/textAppearanceInverse"
+        android:textColor="#08BFFF" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/customItem_Daily_success"
+            style="@style/style_small_menu_olivedrab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20sp"
+            android:text="success"
+            android:textAppearance="?android:attr/textAppearanceButton" />
+
+        <TextView
+            style="@style/style_small_menu_olivedrab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20sp"
+            android:text="(%)"
+            android:textAppearance="?android:attr/textAppearanceButton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/customItem_Daily_fail"
+            style="@style/style_small_menu_olivedrab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10sp"
+            android:text="숫자"
+            android:textAppearance="?android:attr/textAppearanceInverse" />
+
+        <TextView
+            style="@style/style_small_menu_olivedrab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10sp"
+            android:text="(%)"
+            android:textAppearance="?android:attr/textAppearanceInverse" />
+    </LinearLayout>
+
+</LinearLayout>

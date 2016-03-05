@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#696969"
+    tools:context="com.msp_manager.Ac_WorkGoal">
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:layout_weight="3"
+            android:gravity="center_horizontal|center_vertical">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/style_big_menu_greenyellow"
+                android:text="목 표  작 업 량 "
+                android:layout_gravity="center_horizontal"/>
+            
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center_vertical|center_horizontal">
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:layout_gravity="center_vertical">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/style_basic_menu_violet"
+                android:text="날 짜 : "
+                android:gravity="center_vertical"/>
+            
+            <TextView 
+                android:id="@+id/WorkGoal_txtView_date"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="날짜 선택"
+                android:layout_gravity="center_vertical"
+                android:background="#8B795E"
+                style="@style/style_basic_menu_greenyellow"
+                />
+            
+            <Button 
+        android:id="@+id/WorkGoal_button_store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="저장"/>
+        </LinearLayout>
+        
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+       	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:baselineAligned="false"
+        android:paddingTop="20sp">
+        
+        <ListView
+        android:id="@+id/WorkGoal_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+        
+	</LinearLayout>
+    
+
+    
+    
+</LinearLayout>

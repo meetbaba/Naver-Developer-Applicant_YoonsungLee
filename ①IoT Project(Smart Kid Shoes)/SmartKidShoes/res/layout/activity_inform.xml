@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvKidsInform"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.88"
+            android:background="@drawable/kidsin"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/ivBoy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          
+         
+            android:background="@drawable/boy" />
+
+        <ImageView
+            android:id="@+id/ivGirl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    
+          
+            android:background="@drawable/girl" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp" >
+
+        <RadioGroup
+            android:id="@+id/rgGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rbBoy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="Boy"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/rbGirl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Girl"
+                android:textColor="#000000" />
+        </RadioGroup>
+    </LinearLayout>
+    <!--
+    <ImageView
+        android:id="@+id/ivHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/height"
+        android:layout_marginTop="20dp" />
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <EditText
+            android:id="@+id/etHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="자녀의 키를 입력하세요."
+            android:singleLine="true"
+            android:imeOptions="actionDone" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tvCM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+         
+            android:text=" cm"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btnSetting"
+            android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+            android:background="@drawable/setting"
+            />
+
+ 
+
+</LinearLayout>

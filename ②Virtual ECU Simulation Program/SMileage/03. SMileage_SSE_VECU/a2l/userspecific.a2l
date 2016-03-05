@@ -1,0 +1,31 @@
+/* This file contains A2L fragments.
+    The ECU addresses will be replaced by the actual addresses.
+*/
+
+ASAP2_VERSION 1 4
+/begin PROJECT AR "dummy"
+/begin MODULE AR "dummy"
+
+   /* Example: */
+   /begin MEASUREMENT myUserMeasurement
+   ""
+   SBYTE
+   MY_COMPU_METHOD
+   0
+   0
+   -128
+   127
+   ECU_ADDRESS 0x82beba2
+   /end MEASUREMENT
+
+   /* Example for a computation method: */
+   /begin COMPU_METHOD
+      MY_COMPU_METHOD "my compu method"
+      RAT_FUNC
+      "%10.8"
+      "-"
+      COEFFS 0 2.2 17 0 0 1    /* Linear: 2.2 * x + 17 */
+   /end COMPU_METHOD
+
+/end MODULE
+/end PROJECT

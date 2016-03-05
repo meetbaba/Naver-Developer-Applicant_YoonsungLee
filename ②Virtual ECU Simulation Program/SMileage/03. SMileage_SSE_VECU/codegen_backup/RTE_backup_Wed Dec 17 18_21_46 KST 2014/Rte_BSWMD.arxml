@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-0-2.xsd">
+   <!-- BSW Module Description report file from RTARTE -->
+   <AR-PACKAGES>
+      <AR-PACKAGE>
+         <SHORT-NAME>AUTOSAR_Rte</SHORT-NAME>
+         <REFERENCE-BASES>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_Units</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/Units</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_CompuMethods</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/CompuMethods</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_SwAddrMethods</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/SwAddrMethods</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_SwBaseTypes</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/SwBaseTypes</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_DataConstrs</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/DataConstrs</PACKAGE-REF>
+            </REFERENCE-BASE>
+            <REFERENCE-BASE>
+               <SHORT-LABEL>Rte_MCSD_ImplementationDataTypes</SHORT-LABEL>
+               <PACKAGE-REF DEST="AR-PACKAGE">/AUTOSAR_Rte/ImplementationDataTypes</PACKAGE-REF>
+            </REFERENCE-BASE>
+         </REFERENCE-BASES>
+         <AR-PACKAGES>
+            <!-- Module Decscription -->
+            <AR-PACKAGE>
+               <SHORT-NAME>BswModuleDescriptions</SHORT-NAME>
+               <ELEMENTS>
+                 <BSW-MODULE-DESCRIPTION>
+                     <SHORT-NAME>RteBswModuleDescription</SHORT-NAME>
+                     <PROVIDED-ENTRYS>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Rte/BswModuleEntrys/Rte_Start</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Rte/BswModuleEntrys/Rte_Stop</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Rte/BswModuleEntrys/SchM_DeInit</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                        <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Rte/BswModuleEntrys/SchM_Init</BSW-MODULE-ENTRY-REF>
+                        </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                     </PROVIDED-ENTRYS>
+                     <OUTGOING-CALLBACKS>
+                     </OUTGOING-CALLBACKS>
+                     <BSW-MODULE-DEPENDENCYS>
+                        <BSW-MODULE-DEPENDENCY>
+                          <SHORT-NAME>ModDepOS</SHORT-NAME>
+                          <TARGET-MODULE-ID>001</TARGET-MODULE-ID>
+                          <REQUIRED-ENTRYS>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR/OS/ActivateTask</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR/OS/CancelAlarm</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR/OS/ChainTask</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR/OS/ClearEvent</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR/OS/GetEvent</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR/OS/GetResource</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR/OS/GetTaskID</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR/OS/ReleaseResource</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR/OS/ResumeOSInterrupts</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR/OS/SetEvent</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR/OS/SetRelAlarm</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR/OS/SuspendOSInterrupts</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR/OS/TerminateTask</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                            <BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                              <BSW-MODULE-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR/OS/WaitEvent</BSW-MODULE-ENTRY-REF>
+                            </BSW-MODULE-ENTRY-REF-CONDITIONAL>
+                          </REQUIRED-ENTRYS>
+                        </BSW-MODULE-DEPENDENCY>
+                     </BSW-MODULE-DEPENDENCYS>
+                     <INTERNAL-BEHAVIORS>
+                       <BSW-INTERNAL-BEHAVIOR>
+                           <SHORT-NAME>RteInternalBehavior</SHORT-NAME>
+                             <CONSTANT-MEMORYS>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_CoolantTemperaturePlausi_PPortCTRAW_SetCoolantTemperatureRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QREType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_CrankshaftPositionPlausi_PPortCPRAW_SetCrankshaftPositionRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QREType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_PPortSetFuelCutState_SetFuelCutState</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QTaskType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortAccelerate_SetAccelerateLevel</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDRAType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortBrake_SetBrakeLevel</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDRAType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortCPRAW_SetCrankshaftPositionRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDRAType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortCTRAW_SetCoolantTemperatureRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDRAType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortGear_SetGearLevel</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDRAType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortGyroRAW_SetGyroRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDRAType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortVSRAW_SetVehicleSpeedRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDRAType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_FuelCutActuator_RPortSetFuelCutState_SetFuelCutState</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDRAType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_FuelCutAlgo_PPortAccelerate_SetAccelerateLevel</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QREType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_FuelCutAlgo_PPortBrake_SetBrakeLevel</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QREType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_FuelCutAlgo_PPortGear_SetGearLevel</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QREType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_GyroPlausi_PPortGyroRAW_SetGyroRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QREType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_VehicleSpeedPlausi_PPortVSRAW_SetVehicleSpeedRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QREType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_RE_CONTAINER_SwComponentPrototype_CoolantTemperaturePlausi_OIE_SetCoolantTemperatureRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REContainerType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_RE_CONTAINER_SwComponentPrototype_CrankshaftPositionPlausi_OIE_SetCrankshaftPositionRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REContainerType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_RE_CONTAINER_SwComponentPrototype_FuelCutAlgo_DRE_CoolantTempertaturePls</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REContainerType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_RE_CONTAINER_SwComponentPrototype_FuelCutAlgo_DRE_CrankshaftPositionPls</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REContainerType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_RE_CONTAINER_SwComponentPrototype_FuelCutAlgo_DRE_GyroPls</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REContainerType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_RE_CONTAINER_SwComponentPrototype_FuelCutAlgo_DRE_VehicleSpeedPls</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REContainerType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_RE_CONTAINER_SwComponentPrototype_FuelCutAlgo_OIE_SetAccelerateLevel</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REContainerType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_RE_CONTAINER_SwComponentPrototype_FuelCutAlgo_OIE_SetBrakeLevel</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REContainerType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_RE_CONTAINER_SwComponentPrototype_FuelCutAlgo_OIE_SetGearLevel</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REContainerType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_RE_CONTAINER_SwComponentPrototype_GyroPlausi_OIE_SetGyroRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REContainerType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_RE_CONTAINER_SwComponentPrototype_VehicleSpeedPlausi_OIE_SetVehicleSpeedRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REContainerType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Tasks</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_TaskInfo</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                              <PARAMETER-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_TimeoutAlarms</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_AlarmRefType</TYPE-TREF>
+                              </PARAMETER-DATA-PROTOTYPE>
+                           </CONSTANT-MEMORYS>
+                           <STATIC-MEMORYS>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_ActCount_SwComponentPrototype_CoolantTemperaturePlausi_OIE_SetCoolantTemperatureRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REActCounterType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_ActCount_SwComponentPrototype_CrankshaftPositionPlausi_OIE_SetCrankshaftPositionRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REActCounterType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_ActCount_SwComponentPrototype_FuelCutAlgo_DRE_CoolantTempertaturePls</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REActCounterType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_ActCount_SwComponentPrototype_FuelCutAlgo_DRE_CrankshaftPositionPls</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REActCounterType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_ActCount_SwComponentPrototype_FuelCutAlgo_DRE_GyroPls</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REActCounterType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_ActCount_SwComponentPrototype_FuelCutAlgo_DRE_VehicleSpeedPls</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REActCounterType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_ActCount_SwComponentPrototype_FuelCutAlgo_OIE_SetAccelerateLevel</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REActCounterType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_ActCount_SwComponentPrototype_FuelCutAlgo_OIE_SetBrakeLevel</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REActCounterType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_ActCount_SwComponentPrototype_FuelCutAlgo_OIE_SetGearLevel</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REActCounterType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_ActCount_SwComponentPrototype_GyroPlausi_OIE_SetGyroRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REActCounterType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_ActCount_SwComponentPrototype_VehicleSpeedPlausi_OIE_SetVehicleSpeedRaw</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_REActCounterType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_ImplicitBufs</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_ImplicitBufsType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_CoolantTemperaturePlausi_PPortCTRAW_SetCoolantTemperatureRaw_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_CoolantTemperaturePlausi_PPortCTRAW_SetCoolantTemperatureRaw_QEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_CoolantTemperaturePlausi_PPortCTRAW_SetCoolantTemperatureRaw_dyn</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_CrankshaftPositionPlausi_PPortCPRAW_SetCrankshaftPositionRaw_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_CrankshaftPositionPlausi_PPortCPRAW_SetCrankshaftPositionRaw_QEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_CrankshaftPositionPlausi_PPortCPRAW_SetCrankshaftPositionRaw_dyn</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_PPortSetFuelCutState_SetFuelCutState_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_EngineECU_PPortSetFuelCutState_SetFuelCutState_QEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_PPortSetFuelCutState_SetFuelCutState_dyn</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortAccelerate_SetAccelerateLevel_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_FuelCutAlgo_PPortAccelerate_SetAccelerateLevel_RtnQEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortAccelerate_SetAccelerateLevel_dynamic</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortBrake_SetBrakeLevel_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_FuelCutAlgo_PPortBrake_SetBrakeLevel_RtnQEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortBrake_SetBrakeLevel_dynamic</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortCPRAW_SetCrankshaftPositionRaw_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_CrankshaftPositionPlausi_PPortCPRAW_SetCrankshaftPositionRaw_RtnQEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortCPRAW_SetCrankshaftPositionRaw_dynamic</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortCTRAW_SetCoolantTemperatureRaw_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_CoolantTemperaturePlausi_PPortCTRAW_SetCoolantTemperatureRaw_RtnQEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortCTRAW_SetCoolantTemperatureRaw_dynamic</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortGear_SetGearLevel_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_FuelCutAlgo_PPortGear_SetGearLevel_RtnQEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortGear_SetGearLevel_dynamic</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortGyroRAW_SetGyroRaw_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_GyroPlausi_PPortGyroRAW_SetGyroRaw_RtnQEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortGyroRAW_SetGyroRaw_dynamic</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortVSRAW_SetVehicleSpeedRaw_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_VehicleSpeedPlausi_PPortVSRAW_SetVehicleSpeedRaw_RtnQEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_EngineECU_RPortVSRAW_SetVehicleSpeedRaw_dynamic</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_FuelCutActuator_RPortSetFuelCutState_SetFuelCutState_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_EngineECU_PPortSetFuelCutState_SetFuelCutState_RtnQEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_FuelCutActuator_RPortSetFuelCutState_SetFuelCutState_dynamic</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_FuelCutAlgo_PPortAccelerate_SetAccelerateLevel_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_FuelCutAlgo_PPortAccelerate_SetAccelerateLevel_QEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_FuelCutAlgo_PPortAccelerate_SetAccelerateLevel_dyn</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_FuelCutAlgo_PPortBrake_SetBrakeLevel_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_FuelCutAlgo_PPortBrake_SetBrakeLevel_QEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_FuelCutAlgo_PPortBrake_SetBrakeLevel_dyn</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_FuelCutAlgo_PPortGear_SetGearLevel_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_FuelCutAlgo_PPortGear_SetGearLevel_QEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_FuelCutAlgo_PPortGear_SetGearLevel_dyn</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_GyroPlausi_PPortGyroRAW_SetGyroRaw_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_GyroPlausi_PPortGyroRAW_SetGyroRaw_QEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_GyroPlausi_PPortGyroRAW_SetGyroRaw_dyn</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_VehicleSpeedPlausi_PPortVSRAW_SetVehicleSpeedRaw_data</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_SwComponentPrototype_VehicleSpeedPlausi_PPortVSRAW_SetVehicleSpeedRaw_QEType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Queue_SwComponentPrototype_VehicleSpeedPlausi_PPortVSRAW_SetVehicleSpeedRaw_dyn</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_QDynType</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Var_SwComponentPrototype_EngineECU_RPortAccelerate_SetAccelerateLevel_outstanding</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Var_SwComponentPrototype_EngineECU_RPortBrake_SetBrakeLevel_outstanding</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Var_SwComponentPrototype_EngineECU_RPortCPRAW_SetCrankshaftPositionRaw_outstanding</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Var_SwComponentPrototype_EngineECU_RPortCTRAW_SetCoolantTemperatureRaw_outstanding</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Var_SwComponentPrototype_EngineECU_RPortGear_SetGearLevel_outstanding</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Var_SwComponentPrototype_EngineECU_RPortGyroRAW_SetGyroRaw_outstanding</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Var_SwComponentPrototype_EngineECU_RPortVSRAW_SetVehicleSpeedRaw_outstanding</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>Rte_Var_SwComponentPrototype_FuelCutActuator_RPortSetFuelCutState_SetFuelCutState_outstanding</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>SwComponentPrototype_EngineECU_IB_EngineECU_eX_FuelCutState</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>SwComponentPrototype_FuelCutAlgo_IB_FuelCutAlgo_eX_AccelerateLevel</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>SwComponentPrototype_FuelCutAlgo_IB_FuelCutAlgo_eX_BrakeLevel</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>SwComponentPrototype_FuelCutAlgo_IB_FuelCutAlgo_eX_CoolantTemperature</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">float32</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>SwComponentPrototype_FuelCutAlgo_IB_FuelCutAlgo_eX_CrankshaftPosition</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">float32</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>SwComponentPrototype_FuelCutAlgo_IB_FuelCutAlgo_eX_GearLevel</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>SwComponentPrototype_FuelCutAlgo_IB_FuelCutAlgo_eX_Gyro</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">float32</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>SwComponentPrototype_FuelCutAlgo_IB_FuelCutAlgo_eX_VehicleSpeed</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">float32</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>coolantTemperature_pls</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">float32</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>crankshaftPosition_pls</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">float32</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>fuelCutAction</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>gyro_pls</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">float32</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                              <VARIABLE-DATA-PROTOTYPE>
+                                <SHORT-NAME>vehicleSpeed_pls</SHORT-NAME>
+                                <TYPE-TREF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">float32</TYPE-TREF>
+                              </VARIABLE-DATA-PROTOTYPE>
+                           </STATIC-MEMORYS>
+                           <ENTITYS>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>BCERte_Start</SHORT-NAME>
+                                <IMPLEMENTED-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Rte/BswModuleEntrys/Rte_Start</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>BCERte_Stop</SHORT-NAME>
+                                <IMPLEMENTED-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Rte/BswModuleEntrys/Rte_Stop</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>BCESchM_DeInit</SHORT-NAME>
+                                <IMPLEMENTED-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Rte/BswModuleEntrys/SchM_DeInit</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                              <BSW-CALLED-ENTITY>
+                                <SHORT-NAME>BCESchM_Init</SHORT-NAME>
+                                <IMPLEMENTED-ENTRY-REF DEST="BSW-MODULE-ENTRY">/AUTOSAR_Rte/BswModuleEntrys/SchM_Init</IMPLEMENTED-ENTRY-REF>
+                              </BSW-CALLED-ENTITY>
+                           </ENTITYS>
+                        </BSW-INTERNAL-BEHAVIOR>
+                     </INTERNAL-BEHAVIORS>
+                  </BSW-MODULE-DESCRIPTION>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>BswModuleEntrys</SHORT-NAME>
+               <ELEMENTS>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_Start</SHORT-NAME>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>Rte_Stop</SHORT-NAME>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>SchM_DeInit</SHORT-NAME>
+                  </BSW-MODULE-ENTRY>
+                  <BSW-MODULE-ENTRY>
+                    <SHORT-NAME>SchM_Init</SHORT-NAME>
+                  </BSW-MODULE-ENTRY>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>BswImplementations</SHORT-NAME>
+               <ELEMENTS>
+                  <BSW-IMPLEMENTATION>
+                    <SHORT-NAME>Imp</SHORT-NAME>
+                    <GENERATED-ARTIFACTS>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Com_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Com_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>CoolantTemperaturePlausi_MemMap_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>CoolantTemperaturePlausi_MemMap_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>CrankshaftPositionPlausi_MemMap_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>CrankshaftPositionPlausi_MemMap_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>EngineECU_MemMap_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>EngineECU_MemMap_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>FuelCutActuator_MemMap_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>FuelCutActuator_MemMap_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>FuelCutAlgo_MemMap_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>FuelCutAlgo_MemMap_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>GyroPlausi_MemMap_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>GyroPlausi_MemMap_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Ioc_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Ioc_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>MemMap_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>MemMap_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>NvM_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>NvM_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Os_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Os_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>OsTask_ActuatorToEngine_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>OsTask_ActuatorToEngine_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>OsTask_Algo_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>OsTask_Algo_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>OsTask_AlgoToActuator_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>OsTask_AlgoToActuator_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>OsTask_ECU_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>OsTask_ECU_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>OsTask_Plausi_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>OsTask_Plausi_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>OsTask_SetFuelCutState_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>OsTask_SetFuelCutState_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_c</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_c</SHORT-LABEL>
+                          <CATEGORY>SWSRC</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Cbk_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Cbk_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Cfg_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Cfg_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Const_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Const_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_CoolantTemperaturePlausi_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_CoolantTemperaturePlausi_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_CoolantTemperaturePlausi_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_CoolantTemperaturePlausi_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_CrankshaftPositionPlausi_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_CrankshaftPositionPlausi_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_CrankshaftPositionPlausi_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_CrankshaftPositionPlausi_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_DataHandleType_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_DataHandleType_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_EngineECU_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_EngineECU_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_EngineECU_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_EngineECU_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_FuelCutActuator_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_FuelCutActuator_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_FuelCutActuator_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_FuelCutActuator_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_FuelCutAlgo_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_FuelCutAlgo_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_FuelCutAlgo_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_FuelCutAlgo_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_GyroPlausi_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_GyroPlausi_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_GyroPlausi_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_GyroPlausi_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Hook_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Hook_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Intl_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Intl_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Lib_c</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Lib_c</SHORT-LABEL>
+                          <CATEGORY>SWSRC</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Main_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Main_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_VehicleSpeedPlausi_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_VehicleSpeedPlausi_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>Rte_VehicleSpeedPlausi_Type_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>Rte_VehicleSpeedPlausi_Type_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                      <DEPENDENCY-ON-ARTIFACT>
+                        <SHORT-NAME>VehicleSpeedPlausi_MemMap_h</SHORT-NAME>
+                        <ARTIFACT-DESCRIPTOR>
+                          <SHORT-LABEL>VehicleSpeedPlausi_MemMap_h</SHORT-LABEL>
+                          <CATEGORY>SWHDR</CATEGORY>
+                          <DOMAIN>AUTOSAR</DOMAIN>
+                        </ARTIFACT-DESCRIPTOR>
+                      </DEPENDENCY-ON-ARTIFACT>
+                    </GENERATED-ARTIFACTS>
+                    <PROGRAMMING-LANGUAGE>C</PROGRAMMING-LANGUAGE>
+                    <RESOURCE-CONSUMPTION>
+                      <SHORT-NAME>ResConsumption</SHORT-NAME>
+                      <MEMORY-SECTIONS>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>CONST_UNSPECIFIED</SHORT-NAME>
+                          <ALIGNMENT>UNSPECIFIED</ALIGNMENT>
+                          <SW-ADDRMETHOD-REF BASE="Rte_MCSD_SwAddrMethods" DEST="SW-ADDR-METHOD">CONST_UNSPECIFIED</SW-ADDRMETHOD-REF>
+                        </MEMORY-SECTION>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>VAR_32BIT</SHORT-NAME>
+                          <ALIGNMENT>32</ALIGNMENT>
+                          <SW-ADDRMETHOD-REF BASE="Rte_MCSD_SwAddrMethods" DEST="SW-ADDR-METHOD">VAR_32BIT</SW-ADDRMETHOD-REF>
+                        </MEMORY-SECTION>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>VAR_8BIT</SHORT-NAME>
+                          <ALIGNMENT>8</ALIGNMENT>
+                          <SW-ADDRMETHOD-REF BASE="Rte_MCSD_SwAddrMethods" DEST="SW-ADDR-METHOD">VAR_8BIT</SW-ADDRMETHOD-REF>
+                        </MEMORY-SECTION>
+                        <MEMORY-SECTION>
+                          <SHORT-NAME>VAR_UNSPECIFIED</SHORT-NAME>
+                          <ALIGNMENT>UNSPECIFIED</ALIGNMENT>
+                          <SW-ADDRMETHOD-REF BASE="Rte_MCSD_SwAddrMethods" DEST="SW-ADDR-METHOD">VAR_UNSPECIFIED</SW-ADDRMETHOD-REF>
+                        </MEMORY-SECTION>
+                      </MEMORY-SECTIONS>
+                    </RESOURCE-CONSUMPTION>
+                    <SW-VERSION>0.0.0</SW-VERSION>
+                    <USED-CODE-GENERATOR>ETAS RTEGen</USED-CODE-GENERATOR>
+                    <AR-RELEASE-VERSION>4.0.0</AR-RELEASE-VERSION>
+                    <BEHAVIOR-REF DEST="BSW-INTERNAL-BEHAVIOR">/AUTOSAR_Rte/BswModuleDescriptions/RteBswModuleDescription/RteInternalBehavior</BEHAVIOR-REF>
+                  </BSW-IMPLEMENTATION>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>Units</SHORT-NAME>
+               <ELEMENTS>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>CompuMethods</SHORT-NAME>
+               <ELEMENTS>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>DataConstrs</SHORT-NAME>
+               <ELEMENTS>
+                  <DATA-CONSTR>
+                    <!--Exported because of Type uint8-->
+                    <SHORT-NAME>AUTOSAR_PlatformTypes_DataConstrs_uint8</SHORT-NAME>
+                    <DATA-CONSTR-RULES>
+                      <DATA-CONSTR-RULE>
+                        <INTERNAL-CONSTRS>
+                          <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                          <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                        </INTERNAL-CONSTRS>
+                      </DATA-CONSTR-RULE>
+                    </DATA-CONSTR-RULES>
+                  </DATA-CONSTR>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>ImplementationDataTypes</SHORT-NAME>
+               <ELEMENTS>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_REActCounterType</SHORT-NAME>
+                    <CATEGORY>VALUE</CATEGORY>
+                    <INTRODUCTION>
+                      <P>
+                        <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                      </P>
+                    </INTRODUCTION>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>float32</SHORT-NAME>
+                    <CATEGORY>VALUE</CATEGORY>
+                    <SW-DATA-DEF-PROPS>
+                      <SW-DATA-DEF-PROPS-VARIANTS>
+                        <SW-DATA-DEF-PROPS-CONDITIONAL>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="EN">Written By</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>ETAS RTEGen</ANNOTATION-ORIGIN>
+                              <ANNOTATION-TEXT>
+                                <P>
+                                  <L-1 L="EN">SwDataDefProps written by RTEGen</L-1>
+                                </P>
+                              </ANNOTATION-TEXT>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <BASE-TYPE-REF BASE="Rte_MCSD_SwBaseTypes" DEST="SW-BASE-TYPE">float32</BASE-TYPE-REF>
+                        </SW-DATA-DEF-PROPS-CONDITIONAL>
+                      </SW-DATA-DEF-PROPS-VARIANTS>
+                    </SW-DATA-DEF-PROPS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_DE_float32</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>value</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">float32</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_TDB_OsTask_Plausi</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>sbuf0</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_DE_float32</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>sbuf1</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_DE_float32</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>sbuf2</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_DE_float32</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>sbuf3</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_DE_float32</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_ISA_2</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>_OsTask_Plausi</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_TDB_OsTask_Plausi</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_TDB_OsTask_Algo</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>sbuf0</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_DE_float32</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>sbuf1</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_DE_float32</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>sbuf2</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_DE_float32</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>sbuf3</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_DE_float32</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_ISA_3</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>_OsTask_Algo</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_TDB_OsTask_Algo</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>uint8</SHORT-NAME>
+                    <CATEGORY>VALUE</CATEGORY>
+                    <SW-DATA-DEF-PROPS>
+                      <SW-DATA-DEF-PROPS-VARIANTS>
+                        <SW-DATA-DEF-PROPS-CONDITIONAL>
+                          <ANNOTATIONS>
+                            <ANNOTATION>
+                              <LABEL>
+                                <L-4 L="EN">Written By</L-4>
+                              </LABEL>
+                              <ANNOTATION-ORIGIN>ETAS RTEGen</ANNOTATION-ORIGIN>
+                              <ANNOTATION-TEXT>
+                                <P>
+                                  <L-1 L="EN">SwDataDefProps written by RTEGen</L-1>
+                                </P>
+                              </ANNOTATION-TEXT>
+                            </ANNOTATION>
+                          </ANNOTATIONS>
+                          <BASE-TYPE-REF BASE="Rte_MCSD_SwBaseTypes" DEST="SW-BASE-TYPE">uint8</BASE-TYPE-REF>
+                          <DATA-CONSTR-REF BASE="Rte_MCSD_DataConstrs" DEST="DATA-CONSTR">AUTOSAR_PlatformTypes_DataConstrs_uint8</DATA-CONSTR-REF>
+                        </SW-DATA-DEF-PROPS-CONDITIONAL>
+                      </SW-DATA-DEF-PROPS-VARIANTS>
+                    </SW-DATA-DEF-PROPS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_DE_uint8</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>value</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_TDB_OsTask_AlgoToActuator</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>sbuf0</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_DE_uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_ISA_4</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>_OsTask_AlgoToActuator</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_TDB_OsTask_AlgoToActuator</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_TDB_OsTask_ActuatorToEngine</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>sbuf0</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_DE_uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_ISA_5</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>_OsTask_ActuatorToEngine</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_TDB_OsTask_ActuatorToEngine</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_ImplicitBufsType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>isa_2</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_ISA_2</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>isa_3</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_ISA_3</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>isa_4</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_ISA_4</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>isa_5</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">Rte_ISA_5</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_QREType</SHORT-NAME>
+                    <CATEGORY>VALUE</CATEGORY>
+                    <INTRODUCTION>
+                      <P>
+                        <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                      </P>
+                    </INTRODUCTION>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_QCmnRefType</SHORT-NAME>
+                    <CATEGORY>VALUE</CATEGORY>
+                    <INTRODUCTION>
+                      <P>
+                        <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                      </P>
+                    </INTRODUCTION>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_CoolantTemperaturePlausi_PPortCTRAW_SetCoolantTemperatureRaw_QEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>coolantTemperatureRaw</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">float32</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>clientQueue</SHORT-NAME>
+                        <CATEGORY>VALUE</CATEGORY>
+                        <INTRODUCTION>
+                          <P>
+                            <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                          </P>
+                        </INTRODUCTION>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_QDynType</SHORT-NAME>
+                    <CATEGORY>VALUE</CATEGORY>
+                    <INTRODUCTION>
+                      <P>
+                        <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                      </P>
+                    </INTRODUCTION>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_CrankshaftPositionPlausi_PPortCPRAW_SetCrankshaftPositionRaw_QEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>crankshaftPositionRaw</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">float32</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>clientQueue</SHORT-NAME>
+                        <CATEGORY>VALUE</CATEGORY>
+                        <INTRODUCTION>
+                          <P>
+                            <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                          </P>
+                        </INTRODUCTION>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_QTaskType</SHORT-NAME>
+                    <CATEGORY>VALUE</CATEGORY>
+                    <INTRODUCTION>
+                      <P>
+                        <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                      </P>
+                    </INTRODUCTION>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_EngineECU_PPortSetFuelCutState_SetFuelCutState_QEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>fuelCutState</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>clientQueue</SHORT-NAME>
+                        <CATEGORY>VALUE</CATEGORY>
+                        <INTRODUCTION>
+                          <P>
+                            <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                          </P>
+                        </INTRODUCTION>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_QDRAType</SHORT-NAME>
+                    <CATEGORY>VALUE</CATEGORY>
+                    <INTRODUCTION>
+                      <P>
+                        <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                      </P>
+                    </INTRODUCTION>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_FuelCutAlgo_PPortAccelerate_SetAccelerateLevel_RtnQEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>dummy</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_FuelCutAlgo_PPortBrake_SetBrakeLevel_RtnQEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>dummy</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_CrankshaftPositionPlausi_PPortCPRAW_SetCrankshaftPositionRaw_RtnQEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>dummy</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_CoolantTemperaturePlausi_PPortCTRAW_SetCoolantTemperatureRaw_RtnQEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>dummy</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_FuelCutAlgo_PPortGear_SetGearLevel_RtnQEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>dummy</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_GyroPlausi_PPortGyroRAW_SetGyroRaw_RtnQEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>dummy</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_VehicleSpeedPlausi_PPortVSRAW_SetVehicleSpeedRaw_RtnQEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>dummy</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_EngineECU_PPortSetFuelCutState_SetFuelCutState_RtnQEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>dummy</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_FuelCutAlgo_PPortAccelerate_SetAccelerateLevel_QEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>accelerateLevel</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>clientQueue</SHORT-NAME>
+                        <CATEGORY>VALUE</CATEGORY>
+                        <INTRODUCTION>
+                          <P>
+                            <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                          </P>
+                        </INTRODUCTION>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_FuelCutAlgo_PPortBrake_SetBrakeLevel_QEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>brakeLevel</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>clientQueue</SHORT-NAME>
+                        <CATEGORY>VALUE</CATEGORY>
+                        <INTRODUCTION>
+                          <P>
+                            <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                          </P>
+                        </INTRODUCTION>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_FuelCutAlgo_PPortGear_SetGearLevel_QEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>gearLevel</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">uint8</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>clientQueue</SHORT-NAME>
+                        <CATEGORY>VALUE</CATEGORY>
+                        <INTRODUCTION>
+                          <P>
+                            <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                          </P>
+                        </INTRODUCTION>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_GyroPlausi_PPortGyroRAW_SetGyroRaw_QEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>gyroRaw</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">float32</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>clientQueue</SHORT-NAME>
+                        <CATEGORY>VALUE</CATEGORY>
+                        <INTRODUCTION>
+                          <P>
+                            <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                          </P>
+                        </INTRODUCTION>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_SwComponentPrototype_VehicleSpeedPlausi_PPortVSRAW_SetVehicleSpeedRaw_QEType</SHORT-NAME>
+                    <CATEGORY>STRUCTURE</CATEGORY>
+                    <SUB-ELEMENTS>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>vehicleSpeedRaw</SHORT-NAME>
+                        <CATEGORY>TYPE_REFERENCE</CATEGORY>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <IMPLEMENTATION-DATA-TYPE-REF BASE="Rte_MCSD_ImplementationDataTypes" DEST="IMPLEMENTATION-DATA-TYPE">float32</IMPLEMENTATION-DATA-TYPE-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                      <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                        <SHORT-NAME>clientQueue</SHORT-NAME>
+                        <CATEGORY>VALUE</CATEGORY>
+                        <INTRODUCTION>
+                          <P>
+                            <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                          </P>
+                        </INTRODUCTION>
+                      </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                    </SUB-ELEMENTS>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_REContainerType</SHORT-NAME>
+                    <CATEGORY>VALUE</CATEGORY>
+                    <INTRODUCTION>
+                      <P>
+                        <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                      </P>
+                    </INTRODUCTION>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_TaskInfo</SHORT-NAME>
+                    <CATEGORY>VALUE</CATEGORY>
+                    <INTRODUCTION>
+                      <P>
+                        <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                      </P>
+                    </INTRODUCTION>
+                  </IMPLEMENTATION-DATA-TYPE>
+                  <IMPLEMENTATION-DATA-TYPE>
+                    <SHORT-NAME>Rte_AlarmRefType</SHORT-NAME>
+                    <CATEGORY>VALUE</CATEGORY>
+                    <INTRODUCTION>
+                      <P>
+                        <L-1 L="UK">This is an external type, i.e. it is declared in the Rte Library and not in the XML. RTEGen does not have any information about this type apart from its name.</L-1>
+                      </P>
+                    </INTRODUCTION>
+                  </IMPLEMENTATION-DATA-TYPE>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>SwAddrMethods</SHORT-NAME>
+               <ELEMENTS>
+                  <SW-ADDR-METHOD>
+                    <SHORT-NAME>CONST_UNSPECIFIED</SHORT-NAME>
+                    <SECTION-TYPE>CONST</SECTION-TYPE>
+                  </SW-ADDR-METHOD>
+                  <SW-ADDR-METHOD>
+                    <SHORT-NAME>VAR_32BIT</SHORT-NAME>
+                    <SECTION-TYPE>VAR</SECTION-TYPE>
+                  </SW-ADDR-METHOD>
+                  <SW-ADDR-METHOD>
+                    <SHORT-NAME>VAR_8BIT</SHORT-NAME>
+                    <SECTION-TYPE>VAR</SECTION-TYPE>
+                  </SW-ADDR-METHOD>
+                  <SW-ADDR-METHOD>
+                    <SHORT-NAME>VAR_UNSPECIFIED</SHORT-NAME>
+                    <SECTION-TYPE>VAR</SECTION-TYPE>
+                  </SW-ADDR-METHOD>
+               </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+               <SHORT-NAME>SwBaseTypes</SHORT-NAME>
+               <ELEMENTS>
+                  <SW-BASE-TYPE>
+                    <!--Exported because of Type float32-->
+                    <SHORT-NAME>float32</SHORT-NAME>
+                    <CATEGORY>FIXED_LENGTH</CATEGORY>
+                    <BASE-TYPE-SIZE>32</BASE-TYPE-SIZE>
+                    <BASE-TYPE-ENCODING>IEEE754</BASE-TYPE-ENCODING>
+                    <MEM-ALIGNMENT>32</MEM-ALIGNMENT>
+                    <NATIVE-DECLARATION>float</NATIVE-DECLARATION>
+                  </SW-BASE-TYPE>
+                  <SW-BASE-TYPE>
+                    <!--Exported because of Type uint8-->
+                    <SHORT-NAME>uint8</SHORT-NAME>
+                    <CATEGORY>FIXED_LENGTH</CATEGORY>
+                    <BASE-TYPE-SIZE>8</BASE-TYPE-SIZE>
+                    <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
+                    <MEM-ALIGNMENT>8</MEM-ALIGNMENT>
+                    <NATIVE-DECLARATION>unsigned char</NATIVE-DECLARATION>
+                  </SW-BASE-TYPE>
+               </ELEMENTS>
+            </AR-PACKAGE>
+         </AR-PACKAGES>
+      </AR-PACKAGE>
+   </AR-PACKAGES>
+</AUTOSAR>
+

@@ -1,0 +1,9 @@
+# This file defines mapping from A2L Names to C-Code Variables
+# The mapping is defined by lines having two identifiers separated by space:
+#    A2L_ID  CCode_ID
+# Line-comments start with '#'
+
+
+# Example:
+# Map A2L label 'myUserMeasurement' to C-Code 'Rte_Rx_000040':
+#myUserMeasurement Rte_Rx_000040
