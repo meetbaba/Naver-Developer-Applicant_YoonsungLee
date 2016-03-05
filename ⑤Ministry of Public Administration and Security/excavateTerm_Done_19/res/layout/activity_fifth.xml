@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.excavateterm" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/no_image"
+            android:src="@drawable/navigation1_normal" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/no_image"
+            android:src="@drawable/navigation2_normal" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/no_image"
+            android:src="@drawable/navigation3_choice" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/no_image"
+            android:src="@drawable/navigation4_normal" />
+    </LinearLayout>
+
+    <ScrollView style="@style/scrollview_style" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="16.67dp" >
+
+            <ImageView
+                android:id="@+id/fifth_imageview_top"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/no_image"
+                android:src="@drawable/fifth_service_pre" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.33dp"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/fifth_edittext_activity"
+                    style="@style/edittext_big_style"
+                    android:background="@drawable/editbox_style"
+                    android:hint="@string/write_customer_activity" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.67dp"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/fifth_edittext_term"
+                    style="@style/edittext_big_style"
+                    android:background="@drawable/editbox_style"
+                    android:hint="@string/write_administration_term" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.67dp"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/fifth_edittext_characteristic"
+                    style="@style/edittext_big_style"
+                    android:background="@drawable/editbox_style"
+                    android:hint="@string/write_administration_characteristic" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/fifth_button_next"
+                style="@style/button_next_style"
+                android:layout_marginTop="33.3dp"
+                android:background="@drawable/button_next" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

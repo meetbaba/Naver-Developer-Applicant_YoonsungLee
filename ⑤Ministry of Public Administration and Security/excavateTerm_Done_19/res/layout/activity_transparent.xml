@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    
+    android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="220dp"
+    >
+    
+ <Button
+                android:id="@+id/transparent_button_keep_going"
+                style="@style/button_keepgoing_style"/>
+  <Button
+                android:id="@+id/transparent_button_new_start"
+                android:layout_marginTop="10dp" 
+                style="@style/button_newstart_style"/>
+
+
+
+</LinearLayout>

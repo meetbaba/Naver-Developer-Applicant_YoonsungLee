@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">행정용어발굴 프로그램</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_image">no image</string>
+	<string name="choice_team_number">팀 번호를 선택하세요</string>
+	<string name="write_affiliation">소속을 작성하세요</string>
+	<string name="write_customer_name">고객으로서 기관에 방문한 당신의 이름은 무엇인가요?</string>
+	<string name="write_customer_age">당신의 나이는 몇 살인가요?</string>
+	<string name="write_visit_organization">방문 목적을 위해 당신은 어느 기관을 방문할 예정인가요?</string>
+	<string name="write_visit_purpose">당신은 어떤 공공서비스를 이용,신청하려 하나요?\n(당신이 알고있는 업무를 적어도 좋습니다)</string>
+	<string name="write_customer_activity">기관을 방문하기 전\n필요한 서비스를 받기 위해 당신은 사전에\n어떤 활동을 하나요?</string>
+	<string name="write_customer_activity2">기관에 방문했을 때부터 서비스를 받기까지\n당신은 어떤 활동을 할까요?</string>
+	<string name="write_customer_activity3">방문 목적을 달성한 후,\n당신은 행정기관을 나서면서 무엇을 경험하나요?\n혹은 이후에 또 어떤 활동을 할까요?</string>
+    <string name="write_administration_term">사전 활동 중,\n당신은 어떠한 공급자 중심의 행정용어를 경험하나요?\n※띄어쓰기를 기준으로 단어가 집계됩니다.\n예) 행정 용어→2개로 집계 / 행정용어→1개로 집계</string>
+    <string name="write_administration_term2">이러한 활동 중, 당신은 어떠한 공급자 중심의\n행정용어를 경험하나요?\n※띄어쓰기를 기준으로 단어가 집계됩니다.\n예) 행정 용어→2개로 집계 / 행정용어→1개로 집계</string>
+    <string name="write_administration_term3">사후적으로 하는 활동 중,\n당신은 어떠한 공급자 중심의 행정용어를 경험하나요?\n※띄어쓰기를 기준으로 단어가 집계됩니다.\n예) 행정 용어→2개로 집계 / 행정용어→1개로 집계</string>
+    <string name="write_administration_characteristic">이러한 단어를 보았을 때\n당신은 어떤 감정을 느꼈나요?</string>
+    <string name="write_improvement_term">어떻게 바꾸면 좋을지 적어주세요</string>
+    <string name="write_team_number">팀 번호를 입력하세요.</string>
+<string name="button_size">130px</string>
+	<string name="edittext_size_normal">130px</string>
+	<string name="edittext_size_big">300px</string>
+</resources>

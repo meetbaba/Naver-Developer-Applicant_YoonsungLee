@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.excavateterm" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/no_image"
+            android:src="@drawable/navigation1_normal" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/no_image"
+            android:src="@drawable/navigation2_choice" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/no_image"
+            android:src="@drawable/navigation3_normal" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/no_image"
+            android:src="@drawable/navigation4_normal" />
+    </LinearLayout>
+
+    <ScrollView style="@style/scrollview_style" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="73.3dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="30dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/no_image"
+                    android:src="@drawable/fourth_text_name" />
+
+                <EditText
+                    android:id="@+id/fourth_edittext_name"
+                    style="@style/edittext_normal_style"
+                    android:background="@drawable/editbox_style"
+                    android:hint="@string/write_customer_name" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33.3dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/no_image"
+                    android:src="@drawable/fourth_text_age" />
+
+                <EditText
+                    android:id="@+id/fourth_edittext_age"
+                    style="@style/edittext_normal_style"
+                    android:background="@drawable/editbox_style"
+                    android:digits="0123456789"
+                    android:hint="@string/write_customer_age"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33.3dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/no_image"
+                    android:src="@drawable/fourth_text_visit_organ" />
+
+                <EditText
+                    android:id="@+id/fourth_edittext_visit_organ"
+                    style="@style/edittext_normal_style"
+                    android:background="@drawable/editbox_style"
+                    android:hint="@string/write_visit_organization" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33.3dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/no_image"
+                    android:src="@drawable/fourth_text_visit_purpose" />
+
+                <EditText
+                    android:id="@+id/fourth_edittext_visit_purpose"
+                    style="@style/edittext_big_style"
+                    android:background="@drawable/editbox_style"
+                    android:hint="@string/write_visit_purpose" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/fourth_button_next"
+                style="@style/button_next_style"
+                android:layout_marginTop="43.3dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

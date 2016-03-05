@@ -1,0 +1,190 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="Apspheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+    </style><style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+    <style name="CustomWindowTitleStyle">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Custom_Theme" parent="@android:style/Theme.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTitleBackgroundStyle">@android:color/transparent</item>
+        <item name="android:windowTitleSize">46.67dp</item>
+        <item name="android:windowTitleStyle">@style/CustomWindowTitleStyle</item>
+    </style>
+    
+    
+    <style name="button_next_style">
+       <item name="android:layout_width">310.33dp</item>
+       <item name="android:layout_height">46.67dp</item>
+       <item name="android:background">@drawable/button_next_normal</item>
+    </style>
+
+    <style name="button_send_style">
+       <item name="android:layout_width">310.33dp</item>
+       <item name="android:layout_height">46.67dp</item>
+       <item name="android:background">@drawable/button_send_normal</item>
+    </style>
+    
+    <style name="button_start_style">
+       <item name="android:layout_width">310.33dp</item>
+       <item name="android:layout_height">46.67dp</item>
+       <item name="android:background">@drawable/button_start_normal</item>
+    </style>
+    
+    <style name="button_keepgoing_style">
+       <item name="android:layout_width">310.33dp</item>
+       <item name="android:layout_height">46.67dp</item>
+       <item name="android:background">@drawable/button_keep_going</item>
+    </style>
+    
+    <style name="button_newstart_style">
+       <item name="android:layout_width">310.33dp</item>
+       <item name="android:layout_height">46.67dp</item>
+       <item name="android:background">@drawable/button_new_start</item>
+    </style>
+    
+    <style name="button_position_leader_style">
+       <item name="android:layout_width">152.33dp</item>
+       <item name="android:layout_height">46.67dp</item>
+       <item name="android:background">@drawable/second_button_leader_normal</item>
+    </style>
+    
+     <style name="button_position_member_style">
+       <item name="android:layout_width">152.33dp</item>
+       <item name="android:layout_height">46.67dp</item>
+       <item name="android:background">@drawable/second_button_member_normal</item>
+    </style>
+    
+    <style name="edittext_normal_style">
+       <item name="android:layout_width">310.33dp</item>
+       <item name="android:layout_height">46.67dp</item>
+		<item name="android:textSize">10sp</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:gravity">center</item>
+    </style>
+    
+    <style name="edittext_big_style">
+       <item name="android:layout_width">310.33dp</item>
+       <item name="android:layout_height">100dp</item>
+		<item name="android:textSize">10sp</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:gravity">center</item>
+		<item name="android:lineSpacingExtra">7.5sp</item>
+    </style>
+    
+    <style name="textview_vote_style">
+       <item name="android:layout_width">310.33dp</item>
+       <item name="android:layout_height">93.33dp</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:clickable">true</item>
+    </style>
+    
+    <style name="scrollview_style">
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    
+    
+    <!-- Large Size -->
+    <style name="Lsize_button_next_style">
+       <item name="android:layout_width">698.24dp</item>
+       <item name="android:layout_height">105dp</item>
+       <item name="android:background">@drawable/button_next_normal</item>
+    </style>
+
+    <style name="Lsize_button_send_style">
+       <item name="android:layout_width">698.24dp</item>
+       <item name="android:layout_height">105dp</item>
+       <item name="android:background">@drawable/button_send_normal</item>
+    </style>
+    
+    <style name="Lsize_button_start_style">
+       <item name="android:layout_width">698.24dp</item>
+       <item name="android:layout_height">105dp</item>
+       <item name="android:background">@drawable/button_start_normal</item>
+    </style>
+    
+    <style name="Lsize_button_keepgoing_style">
+       <item name="android:layout_width">698.24dp</item>
+       <item name="android:layout_height">105dp</item>
+       <item name="android:background">@drawable/button_keep_going</item>
+    </style>
+    
+    <style name="Lsize_button_newstart_style">
+       <item name="android:layout_width">698.24dp</item>
+       <item name="android:layout_height">105dp</item>
+       <item name="android:background">@drawable/button_new_start</item>
+    </style>
+    
+    <style name="Lsize_button_position_leader_style">
+       <item name="android:layout_width">342.75dp</item>
+       <item name="android:layout_height">105dp</item>
+       <item name="android:background">@drawable/second_button_leader_normal</item>
+    </style>
+    
+     <style name="Lsize_button_position_member_style">
+       <item name="android:layout_width">342.75dp</item>
+       <item name="android:layout_height">105dp</item>
+       <item name="android:background">@drawable/second_button_member_normal</item>
+    </style>
+    
+    <style name="Lsize_edittext_normal_style">
+       <item name="android:layout_width">698.24dp</item>
+       <item name="android:layout_height">105dp</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:gravity">center</item>
+    </style>
+    
+    <style name="Lsize_edittext_big_style">
+       <item name="android:layout_width">698.24dp</item>
+       <item name="android:layout_height">225dp</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:gravity">center</item>
+		<item name="android:lineSpacingExtra">7.5sp</item>
+    </style>
+    
+    <style name="Lsize_textview_vote_style">
+       <item name="android:layout_width">698.24dp</item>
+       <item name="android:layout_height">209.99dp</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:clickable">true</item>
+    </style>
+    
+    <style name="Lsize_scrollview_style">
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+</resources>

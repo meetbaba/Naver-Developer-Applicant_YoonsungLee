@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.excavateterm" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/no_image"
+            android:src="@drawable/navigation1_normal" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/no_image"
+            android:src="@drawable/navigation2_normal" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/no_image"
+            android:src="@drawable/navigation3_normal" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/no_image"
+            android:src="@drawable/navigation4_choice" />
+    </LinearLayout>
+
+    <ScrollView style="@style/scrollview_style" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="53.3dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="30dp" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/no_image"
+                android:src="@drawable/sixth_text_title" />
+
+            <ListView
+                android:id="@+id/sixth_listview"
+                android:layout_width="fill_parent"
+                android:layout_height="1000dp" />
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="53.3dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
